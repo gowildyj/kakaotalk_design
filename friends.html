@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - KakaoTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"><span>Orange</span><i class="fa-solid fa-wifi fa-sm"></i></div>
+        <div class="status-bar__column"><span>18:43</span></div>
+        <div class="status-bar__column"><i class="fa-solid fa-lock-open fa-sm"></i><span>100%</span><i
+                class="fa-solid fa-battery-full fa-xl"></i><i class="fa-solid fa-bolt fa-sm"></i></div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-solid fa-music"></i></span>
+            <span><a href="settings.html"><i class="fa-solid fa-gear"></i></a>
+                <div class="badge--sm"></div>
+            </span>
+        </div>
+    </header>
+
+    <div class="friends-display">
+        <a id="friends-display-link" href="#">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Friends' Names Display</span>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><i class="fa-regular fa-comment"></i><span
+                        class="nav__notification badge">1</span></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis"></i>
+                    <div class="badge--sm"></div>
+                </a></li>
+        </ul>
+    </nav>
+
+    <main class="friends__screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <a href="chat.html">
+                <img class="user-component__avatar"
+                    src="https://www.tradeinn.com/f/13921/139213623/minions-hello-bob-large-piggy-bank.jpg" alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Bob</h4></a>
+                    <!-- <h6 class="user-component__subtitle">Bob</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar"
+                    src="https://i.pinimg.com/236x/4e/17/7d/4e177d7b41772d35a54f9bd5e5f06806--die-minions-minions-love.jpg"
+                    alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Kevin</h4>
+                    <!-- <h6 class="user-component__subtitle">Bob</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar"
+                    src="https://w7.pngwing.com/pngs/342/651/png-transparent-despicable-me-minion-art-agnes-stuart-the-minion-bob-the-minion-dave-the-minion-kevin-the-minion-minions-bebe-despicable-me-stuart-the-minion-kevin-the-minion.png"
+                    alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Stuart</h4>
+                    <!-- <h6 class="user-component__subtitle">Bob</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up fa-xs"></i>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--sm"
+                    src="https://i.pinimg.com/originals/8d/fa/9a/8dfa9a7948a415e796fedaa0553ff780.jpg" alt="">
+                <h4 class="user-component__title user-component__title--sm">Despicable Me</h4>
+            </div>
+            <div class="user-component__column">
+                <div>
+                    <span>2</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <div id="splash-screen">
+        <i class="fa-solid fa-comment"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/ae146c0eb2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
